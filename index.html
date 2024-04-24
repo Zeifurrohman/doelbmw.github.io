@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOEL BMW - Jual Sparepart Mobil BMW</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .logo {
+            margin: 0;
+        }
+
+        .navbar {
+            text-align: right;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .products {
+            background-color: #f9f9f9;
+            padding: 50px 0;
+        }
+
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .about {
+            padding: 50px 0;
+        }
+
+        .contact {
+            padding: 50px 0;
+        }
+
+        .contact form {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+
+        .contact input,
+        .contact textarea,
+        .contact button {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        .contact button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact button:hover {
+            background-color: #555;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">DOEL BMW</h1>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to DOEL BMW</h2>
+            <p>Your one-stop shop for genuine BMW spare parts.</p>
+        </div>
+    </section>
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/250x250" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Description of Product 1</p>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/250x250" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>Description of Product 2</p>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/250x250" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>Description of Product 3</p>
+                </div>
+                <!-- Add more product cards as needed -->
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>DOEL BMW is a trusted name in providing high-quality spare parts for BMW vehicles. With years of experience, we ensure that our customers get the best products and services.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us for inquiries and orders.</p>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 DOEL BMW. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
